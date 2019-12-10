@@ -1,0 +1,3 @@
+Sender:xx@xx.com
+Recevier:xx@xx.com
+Smtp:smtp.xx.com
