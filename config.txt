@@ -1,3 +1,10 @@
 Sender:xx@xx.com
-Recevier:xx@xx.com
-Smtp:smtp.xx.com
+Recevier:xx@xx.com,xx@xx.com
+Smtpserver:smtp.xx.com
+MailUser:xx
+MailPwd:xx
+Dbuser:xx
+Dbpwd:xx
+Dbserver:xx
+Dbport:1521
+Dbname:xx
