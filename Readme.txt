@@ -7,6 +7,12 @@ Other:
 Config:配置文件可配置邮件服务器，数据库
 '''
 
+Date:2019-12-13
+Author:Daniel
+Version:v0.3
+Describe:1.完成数据查询
+         2.完成附件添加（存在Bug）
+
 Date:2019-12-11
 Author:Daniel
 Version:v0.2
