@@ -73,7 +73,7 @@ class CustControl(object):
 		msg['To'] = Header(';'.join(receiver.split(',')),'utf-8')
 		att1 = MIMEText(open('./%s.csv'%self.filename, 'rb').read(), 'base64', 'utf-8')
 		att1["Content-Type"] = 'application/octet-stream'
-		att1["Content-Disposition"] = 'attachment; '
+		att1["Content-Disposition"] = 'attachment; filename=""'
 		msg.attach(att1)
 
 		smtp = smtplib.SMTP()
