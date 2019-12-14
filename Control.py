@@ -75,6 +75,7 @@ class CustControl(object):
 		att1["Content-Type"] = 'application/octet-stream'
 		att1["Content-Disposition"] = 'attachment; filename=""'
 		msg.attach(att1)
+		
 
 		smtp = smtplib.SMTP()
 		smtp.connect(smtpserver)
